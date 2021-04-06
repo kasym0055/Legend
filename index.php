@@ -1,43 +1,10 @@
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Legend - Multipurpose eCommerce Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html
+    class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+    lang="en" style="">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-
-    <!-- all css here -->
-    <!-- bootstrap v3.3.6 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- jquery-ui.min css -->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- material-design-iconic-font.css -->
-    <link rel="stylesheet" href="css/material-design-iconic-font.css">
-    <!-- chosen.min.css -->
-    <link rel="stylesheet" href="css/chosen.min.css">
-    <!-- nivo-slider.css -->
-    <link rel="stylesheet" href="css/nivo-slider.css">
-    <!--flexslider.css -->
-    <link rel="stylesheet" href="css/flexslider.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
+    <?php include "includes/head.php";?> 
 <body class="shop">
-   <?php include "includes/header.php";?>
+    <?php include "includes/header.php";?>
     <!-- breadcrumb-area-start -->
 
     <!-- breadcrumb-area-end -->
@@ -61,7 +28,8 @@
                                 <!-- tab-menu-start -->
                                 <div class="tab-menu">
                                     <ul>
-                                        <li class="active"><a href="#th" data-toggle="tab"><i class="fa fa-th"></i></a></li>
+                                        <li class="active"><a href="#th" data-toggle="tab"><i class="fa fa-th"></i></a>
+                                        </li>
                                         <li><a href="#list" data-toggle="tab"><i class="fa fa-list"></i></a></li>
                                     </ul>
                                 </div>
@@ -80,11 +48,12 @@
                                     </div>
                                     <div class="control">
                                         <!-- chosen-start -->
-                                        <select data-placeholder="Default Sorting" style="width:50px;" class="chosen-select" tabindex="1">
-                                             <option value="Sorting">1</option>
-                                             <option value="popularity">2</option>
-                                             <option value="rating">3</option>
-                                             <option value="date">4</option>
+                                        <select data-placeholder="Default Sorting" style="width:50px;"
+                                            class="chosen-select" tabindex="1">
+                                            <option value="Sorting">1</option>
+                                            <option value="popularity">2</option>
+                                            <option value="rating">3</option>
+                                            <option value="date">4</option>
                                         </select>
                                         <!-- chosen-end -->
                                         <span>per page</span>
@@ -128,7 +97,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -161,7 +131,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -195,7 +166,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -228,7 +200,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -261,7 +234,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -526,7 +500,9 @@
                                                     <li class="new-price">53,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -535,7 +511,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -577,7 +554,9 @@
                                                     <li class="new-price">36,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -586,7 +565,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -628,7 +608,9 @@
                                                     <li class="new-price">24,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -637,7 +619,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -680,7 +663,9 @@
                                                     <li class="old-price">36,61 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -689,7 +674,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -731,7 +717,9 @@
                                                     <li class="new-price">61,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -740,7 +728,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -782,7 +771,9 @@
                                                     <li class="new-price">31,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -791,7 +782,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -873,10 +865,12 @@
                             <div class="footer-logo mb-30">
                                 <a href="#"><img src="img/logo/2.png" alt="logo"></a>
                             </div>
-                            <p>It is a long established fact that reader will distract by the readable content of a page...</p>
+                            <p>It is a long established fact that reader will distract by the readable content of a
+                                page...</p>
                             <div class="footer-address">
                                 <ul>
-                                    <li><i class="fa fa-map-marker"></i>address :No 40 Baria Sreet 133/2, NewYork, USA.</li>
+                                    <li><i class="fa fa-map-marker"></i>address :No 40 Baria Sreet 133/2, NewYork, USA.
+                                    </li>
                                     <li><i class="fa fa-envelope"></i>Email :demo@posthemes.com</li>
                                     <li><i class="fa fa-mobile"></i>Phone :+(1234) 567 890</li>
                                 </ul>
@@ -1005,7 +999,12 @@
                                 <span class="new-price">$59.00</span>
                             </div>
                             <div class="short-description mt-20">
-                                <p>Bacon ipsum dolor sit amet ut nostrud chuck, voluptate adipisicing veniam kielbasa fugiat ex spare ribs. Incididunt sint officia non cow, ut et. Cillum porchetta tongue occaecat laborum bacon aliquip fatback flank dolore short loin ball tip bresaola deserunt dolor. Shoulder fugiat ut in ut tail swine dolore, capicola ullamco beef occaecat meatball. Laboris turkey in et chuck deserunt ad incididunt do.</p>
+                                <p>Bacon ipsum dolor sit amet ut nostrud chuck, voluptate adipisicing veniam kielbasa
+                                    fugiat ex spare ribs. Incididunt sint officia non cow, ut et. Cillum porchetta
+                                    tongue occaecat laborum bacon aliquip fatback flank dolore short loin ball tip
+                                    bresaola deserunt dolor. Shoulder fugiat ut in ut tail swine dolore, capicola
+                                    ullamco beef occaecat meatball. Laboris turkey in et chuck deserunt ad incididunt
+                                    do.</p>
                             </div>
                             <form action="#">
                                 <input type="number" value="1">
@@ -1024,11 +1023,16 @@
                             <!-- social-icon-start -->
                             <div class="social-icon mt-20">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Email to a Friend"><i class="fa fa-envelope-o"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Pin on Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Share on Google+"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Share on Facebook"><i
+                                                class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Share on Twitter"><i
+                                                class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Email to a Friend"><i
+                                                class="fa fa-envelope-o"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Pin on Pinterest"><i
+                                                class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Share on Google+"><i
+                                                class="fa fa-google-plus"></i></a></li>
                                 </ul>
                             </div>
                             <!-- social-icon-end -->
@@ -1073,7 +1077,10 @@
     <!-- plugins js -->
     <script src="js/plugins.js"></script>
     <!-- main js -->
-    <script src="js/main.js"></script><a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-up"></i></a>
+    <script src="js/main.js"></script><a id="scrollUp" href="#top"
+        style="position: fixed; z-index: 2147483647; display: none;"><i class="fa fa-angle-up"></i></a>
 
 
-</body></html>
+</body>
+
+</html>

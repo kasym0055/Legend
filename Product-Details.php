@@ -1,41 +1,8 @@
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Legend - Multipurpose eCommerce Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html
+    class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+    lang="en" style="">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-
-    <!-- all css here -->
-    <!-- bootstrap v3.3.6 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- jquery-ui.min css -->
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- material-design-iconic-font.css -->
-    <link rel="stylesheet" href="css/material-design-iconic-font.css">
-    <!-- chosen.min.css -->
-    <link rel="stylesheet" href="css/chosen.min.css">
-    <!-- nivo-slider.css -->
-    <link rel="stylesheet" href="css/nivo-slider.css">
-    <!--flexslider.css -->
-    <link rel="stylesheet" href="css/flexslider.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
+    <?php include "includes/head.php";?> 
 <body class="shop">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -43,391 +10,7 @@
 
     <!-- Add your site or application content here -->
     <!-- header-area-start -->
-    <header>
-        <!-- header-top-start -->
-        <div class="header-top">
-            <div class="container">
-                <div class="row ptb-12 bb">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="header-left-menu">
-                            <ul>
-                                <li><a href="#"><img src="img/flag/1.jpg" alt="flag">English<i class="fa fa-angle-down"></i></a>
-                                    <div class="submenu-top">
-                                        <ul>
-                                            <li><a href="#"><img src="img/flag/1.jpg" alt="flag">English</a></li>
-                                            <li><a href="#"><img src="img/flag/2.jpg" alt="flag">اللغة العربية</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="#">Currency : EUR<i class="fa fa-angle-down"></i></a>
-                                    <div class="submenu-top">
-                                        <ul>
-                                            <li><a href="#"> Dollar (USD)</a></li>
-                                            <li><a href="#"> Euro (EUR)</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="#">My account<i class="fa fa-angle-down"></i></a>
-                                    <div class="submenu-top">
-                                        <ul>
-                                            <li><a href="register.html">My account</a></li>
-                                            <li><a href="wishlist.html">My wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="login.html">Log in</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div class="links-nav">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>Store Location</a></li>
-                                <li><a href="#"><i class="fa fa-cog"></i>Guarantee</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header-top-end -->
-        <!-- header-mid-area-start -->
-        <div class="header-mid-area ptb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <div class="logo-area">
-                            <a href="index.html"><img src="img/logo/1.png" alt="logo"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-                        <div class="search-area">
-                            <form action="#">
-                                <input type="text" placeholder="Search entire store here ...">
-                                <select id="sorter" class="header-option" data-role="sorter">
-                                    <option value="Categories " selected="selected"> All Categories </option>
-                                    <option value="headphones">headphones</option>
-                                    <option value="Solo"> --Headphones Solo™2 </option>
-                                </select>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <div class="header-user">
-                            <a><i class="zmdi zmdi-local-shipping zmdi-hc-fw"></i>Free Shipping on Orders $50+</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header-mid-area-end -->
-        <!-- header-menu-area-start -->
-        <div class="header-menu-area" id="header-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 col-md-9  hidden-sm hidden-xs">
-                        <div class="main-menu">
-                            <nav>
-                                <ul>
-                                    <li class="active"><a href="index.html">Home<i class="fa fa-angle-down"></i></a>
-                                        <div class="sub-menu">
-                                            <ul>
-                                                <li><a href="index-2.html">Home-2 <span><i class="fa fa-angle-right"></i></span></a>
-                                                    <ul>
-                                                        <li><a href="#">level 2</a></li>
-                                                        <li><a href="#">level 2</a></li>
-                                                        <li><a href="#">level 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="index-3.html">Home-3 <span><i class="fa fa-angle-right"></i></span></a>
-                                                    <ul>
-                                                        <li><a href="#">level 2</a></li>
-                                                        <li><a href="#">level 2</a></li>
-                                                        <li><a href="#">level 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="index-4.html">Home-4</a></li>
-                                                <li><a href="index-5.html">Home-5</a></li>
-                                                <li><a href="index-6.html">Home-6</a></li>
-                                                <li><a href="index-7.html">Home-7</a></li>
-                                                <li><a href="index-8.html">Home-8</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="shop.html">headphones<i class="fa fa-angle-down"></i></a>
-                                        <div class="mega-menu-area">
-                                            <div class="mega-menu">
-                                                <span>
-                                                    <a href="#" class="title">Headphones Solo™2</a>
-                                                    <a href="shop.html">Headphones with Mic</a>
-                                                    <a href="shop.html">Bluetooth/Wireless</a>
-                                                    <a href="shop.html">Extra Bass</a>
-                                                    <a href="shop.html">Noise Cancelling</a>
-                                                </span>
-                                                <span>
-                                                    <a href="#" class="title">Studio wireless</a>
-                                                    <a href="shop.html">Wireless Headphones</a>
-                                                    <a href="shop.html">On Ear Headphones</a>
-                                                    <a href="shop.html">Planar Magnetic</a>
-                                                    <a href="shop.html">Bone Conduction</a>
-                                                </span>
-                                                <span>
-                                                    <a href="#" class="title">Headphones Pro</a>
-                                                    <a href="shop.html">Wire Managers</a>
-                                                    <a href="shop.html">Hi-Res Music Players</a>
-                                                    <a href="shop.html">Headphone Amplifiers</a>
-                                                    <a href="shop.html">Headphone DACs</a>
-                                                </span>
-                                                <span>
-                                                    <a href="#" class="title">Accessories</a>
-                                                    <a href="shop.html">Earbud Tips</a>
-                                                    <a href="shop.html">Headphone Amps</a>
-                                                    <a href="shop.html">Headphone Cases</a>
-                                                    <a href="shop.html">Headphone Splitters</a>
-                                                </span>
-                                            </div>
-                                            <div class="menu-static">
-                                                <span>
-                                                    <a href="#"><img src="img/banner/7.jpg" alt="banner"></a>
-                                                </span>
-                                                <span>
-                                                    <a href="#"><img src="img/banner/8.jpg" alt="banner"></a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Mobiles &amp; Tablets<i class="fa fa-angle-down"></i></a>
-                                        <div class="mega-menu-area mega-menu-area-2">
-                                            <div class="mega-menu">
-                                                <span>
-                                                    <a href="#" class="title">Smartphones</a>
-                                                    <a href="shop.html">Apple</a>
-                                                    <a href="shop.html">Samsung</a>
-                                                    <a href="shop.html">Motorola</a>
-                                                    <a href="shop.html">Sony</a>
-                                                </span>
-                                                <span>
-                                                    <a href="#" class="title">Tablets &amp; E-Readers</a>
-                                                    <a href="shop.html">Ipad</a>
-                                                    <a href="shop.html">Tablets</a>
-                                                    <a href="shop.html">Kids' Tablets</a>
-                                                    <a href="shop.html">iPad &amp; Tablet </a>
-                                                </span>
-                                                <span>
-                                                    <a href="#" class="title">Accessories</a>
-                                                    <a href="shop.html">Cables</a>
-                                                    <a href="shop.html">Screen Protectors</a>
-                                                    <a href="shop.html">Holders &amp; Stands</a>
-                                                    <a href="shop.html">Storage</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Photo &amp; Camera<i class="fa fa-angle-down"></i></a>
-                                        <div class="mega-menu-area mega-menu-area-3">
-                                            <div class="mega-menu">
-                                                <span>
-                                                    <a href="#" class="title">Cameras</a>
-                                                    <a href="shop.html">Digital SLR</a>
-                                                    <a href="shop.html">Instant Film</a>
-                                                    <a href="shop.html">Mirrorless</a>
-                                                    <a href="shop.html">Waterproof</a>
-                                                </span>
-                                                <span>
-                                                    <a href="#" class="title">Camcorders</a>
-                                                    <a href="shop.html">GoPro Cameras</a>
-                                                    <a href="shop.html">Sports &amp; Action</a>
-                                                    <a href="shop.html">Traditional</a>
-                                                    <a href="shop.html">Photo Accessories</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li><a href="shop.html">Pages<i class="fa fa-angle-down"></i></a>
-                                        <div class="sub-menu">
-                                            <ul>
-                                                <li><a href="shop.html">Shop</a></li>
-                                                <li><a href="product-details.html">product-details</a></li>
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-details.html">blog-details</a></li>
-                                                <li><a href="login.html">login</a></li>
-                                                <li><a href="register.html">register</a></li>
-                                                <li><a href="contact.html">contact</a></li>
-                                                <li><a href="about.html">about</a></li>
-                                                <li><a href="cart.html">cart</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                                <li><a href="404.html">404</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="blog.html">Blog<i class="fa fa-angle-down"></i></a>
-                                        <div class="sub-menu">
-                                            <ul>
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-details.html">blog-details</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <div class="cart-area">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <span>2</span>
-                                    <div class="mini-cart-sub">
-                                        <div class="cart-product">
-                                            <div class="single-cart">
-                                                <div class="cart-img">
-                                                    <a href="#"><img src="img/product/1.jpg" alt="book"></a>
-                                                </div>
-                                                <div class="cart-info">
-                                                    <h5><a href="#">Joust Duffle Bag</a></h5>
-                                                    <p>1 x £60.00</p>
-                                                </div>
-                                            </div>
-                                            <div class="single-cart">
-                                                <div class="cart-img">
-                                                    <a href="#"><img src="img/product/2.jpg" alt="book"></a>
-                                                </div>
-                                                <div class="cart-info">
-                                                    <h5><a href="#">Chaz Kangeroo Hoodie</a></h5>
-                                                    <p>1 x £52.00</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="cart-totals">
-                                            <h5>Total <span>£12.00</span></h5>
-                                        </div>
-                                        <div class="cart-bottom">
-                                            <a href="checkout.html">Check out</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header-menu-area-end -->
-        <!-- mobile-menu-area-start -->
-        <div class="mobile-menu-area hidden-md hidden-lg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="mobile-menu">
-                            <nav id="mobile-menu-active" style="display: block;">
-                                <ul id="nav">
-                                    <li><a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index-2.html">Home-2</a>
-                                                <ul>
-                                                    <li><a href="#">level 2</a></li>
-                                                    <li><a href="#">level 2</a></li>
-                                                    <li><a href="#">level 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="index-3.html">Home-3</a>
-                                                <ul>
-                                                    <li><a href="#">level 2</a></li>
-                                                    <li><a href="#">level 2</a></li>
-                                                    <li><a href="#">level 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="index-4.html">Home-4</a></li>
-                                            <li><a href="index-5.html">Home-5</a></li>
-                                            <li><a href="index-6.html">Home-6</a></li>
-                                            <li><a href="index-7.html">Home-7</a></li>
-                                            <li><a href="index-8.html">Home-8</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">headphones</a>
-                                        <ul>
-                                            <li><a href="shop.html">Headphones with Mic</a></li>
-                                            <li><a href="shop.html">Bluetooth/Wireless</a></li>
-                                            <li><a href="shop.html">Extra Bass</a></li>
-                                            <li><a href="shop.html">Noise Cancelling</a></li>
-                                            <li><a href="shop.html">Wireless Headphones</a></li>
-                                            <li><a href="shop.html">On Ear Headphones</a></li>
-                                            <li><a href="shop.html">Planar Magnetic</a></li>
-                                            <li><a href="shop.html">Bone Conduction</a></li>
-                                            <li><a href="shop.html">Wire Managers</a></li>
-                                            <li><a href="shop.html">Hi-Res Music Players</a></li>
-                                            <li><a href="shop.html">Headphone Amplifiers</a></li>
-                                            <li><a href="shop.html">Headphone DACs</a></li>
-                                            <li><a href="shop.html">Earbud Tips</a></li>
-                                            <li><a href="shop.html">Headphone Amps</a></li>
-                                            <li><a href="shop.html">Headphone Cases</a></li>
-                                            <li><a href="shop.html">Headphone Splitters</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">Mobiles &amp; Tablets</a>
-                                        <ul>
-                                            <li><a href="shop.html">Apple</a></li>
-                                            <li><a href="shop.html">Samsung</a></li>
-                                            <li><a href="shop.html">Motorola</a></li>
-                                            <li><a href="shop.html">Sony</a></li>
-                                            <li><a href="shop.html">Ipad</a></li>
-                                            <li><a href="shop.html">Tablets</a></li>
-                                            <li><a href="shop.html">Kids' Tablets</a></li>
-                                            <li><a href="shop.html">iPad &amp; Tablet</a></li>
-                                            <li><a href="shop.html">Cables</a></li>
-                                            <li><a href="shop.html">Screen Protectors</a></li>
-                                            <li><a href="shop.html">Holders &amp; Stands</a></li>
-                                            <li><a href="shop.html">Storage</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">Photo &amp; Camera</a>
-                                        <ul>
-                                            <li><a href="shop.html">Digital SLR</a></li>
-                                            <li><a href="shop.html">Instant Film</a></li>
-                                            <li><a href="shop.html">Mirrorless</a></li>
-                                            <li><a href="shop.html">Waterproof</a></li>
-                                            <li><a href="shop.html">GoPro Cameras</a></li>
-                                            <li><a href="shop.html">Sports &amp; Action</a></li>
-                                            <li><a href="shop.html">Traditional</a></li>
-                                            <li><a href="shop.html">Photo Accessories</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop.html">Pages</a>
-                                        <ul>
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="product-details.html">product-details</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">blog-details</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="blog.html">blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">blog-details</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- mobile-menu-area-end -->
-    </header>
+    <?php include "includes/header.php";?>
     <!-- header-area-end -->
     <!-- breadcrumb-area-start -->
     <div class="breadcrumb-area mb-70">
@@ -468,7 +51,8 @@
                                 <!-- tab-menu-start -->
                                 <div class="tab-menu">
                                     <ul>
-                                        <li class="active"><a href="#th" data-toggle="tab"><i class="fa fa-th"></i></a></li>
+                                        <li class="active"><a href="#th" data-toggle="tab"><i class="fa fa-th"></i></a>
+                                        </li>
                                         <li><a href="#list" data-toggle="tab"><i class="fa fa-list"></i></a></li>
                                     </ul>
                                 </div>
@@ -487,11 +71,12 @@
                                     </div>
                                     <div class="control">
                                         <!-- chosen-start -->
-                                        <select data-placeholder="Default Sorting" style="width:50px;" class="chosen-select" tabindex="1">
-                                             <option value="Sorting">1</option>
-                                             <option value="popularity">2</option>
-                                             <option value="rating">3</option>
-                                             <option value="date">4</option>
+                                        <select data-placeholder="Default Sorting" style="width:50px;"
+                                            class="chosen-select" tabindex="1">
+                                            <option value="Sorting">1</option>
+                                            <option value="popularity">2</option>
+                                            <option value="rating">3</option>
+                                            <option value="date">4</option>
                                         </select>
                                         <!-- chosen-end -->
                                         <span>per page</span>
@@ -535,7 +120,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -568,7 +154,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -602,7 +189,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -635,7 +223,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -668,7 +257,8 @@
                                                 <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                            class="fa fa-eye"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -933,7 +523,9 @@
                                                     <li class="new-price">53,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -942,7 +534,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -984,7 +577,9 @@
                                                     <li class="new-price">36,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -993,7 +588,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1035,7 +631,9 @@
                                                     <li class="new-price">24,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -1044,7 +642,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1087,7 +686,9 @@
                                                     <li class="old-price">36,61 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -1096,7 +697,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1138,7 +740,9 @@
                                                     <li class="new-price">61,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -1147,7 +751,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1189,7 +794,9 @@
                                                     <li class="new-price">31,78 €</li>
                                                 </ul>
                                             </div>
-                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!</p>
+                                            <p> Faded short sleeves t-shirt with high neckline. Soft and stretchy
+                                                material for a comfortable fit. Accessorize with a straw hat and you're
+                                                ready for summer!</p>
                                             <div class="action-inner mt-20">
                                                 <div class="product-button-3">
                                                     <a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>
@@ -1198,7 +805,8 @@
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-refresh"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i class="fa fa-eye"></i></a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#mymodal"><i
+                                                                    class="fa fa-eye"></i></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1253,10 +861,14 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Headphones Solo™2(13)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Studio wireless(13)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Headphones Pro(13)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Accessories(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Headphones Solo™2(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Studio wireless(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Headphones Pro(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Accessories(13)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1268,7 +880,8 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">In stock(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">In stock(13)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1280,7 +893,8 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">new(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">new(13)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1292,7 +906,8 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Fashion Manufacturer(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Fashion Manufacturer(13)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1302,7 +917,15 @@
                             <div class="shop-left-title">
                                 <h3>Price</h3>
                             </div>
-                            <div id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 6%; width: 88%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 6%;"></span><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 94%;"></span></div>
+                            <div id="slider-range"
+                                class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                                <div class="ui-slider-range ui-widget-header ui-corner-all"
+                                    style="left: 6%; width: 88%;"></div><span
+                                    class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"
+                                    style="left: 6%;"></span><span
+                                    class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"
+                                    style="left: 94%;"></span>
+                            </div>
                             <input type="text" name="text" id="amount">
                         </div>
                         <!-- single-shop-left-end -->
@@ -1313,9 +936,12 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">s(13)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">m(13)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">l(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">s(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">m(13)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">l(13)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1327,14 +953,22 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Beige(2)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">White(4)</a></li>
-                                    <li class="back"><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Black(4)</a></li>
-                                    <li class="orange"><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Orange(4)</a></li>
-                                    <li class="blue"><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Blue(4)</a></li>
-                                    <li class="green"><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Green(2)</a></li>
-                                    <li class="yellow"><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Yellow(6)</a></li>
-                                    <li class="pink"><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Pink(2)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Beige(2)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">White(4)</a></li>
+                                    <li class="back"><input id="rememberme2" type="checkbox" name="rememberme2"
+                                            value="forever"><a href="#">Black(4)</a></li>
+                                    <li class="orange"><input id="rememberme2" type="checkbox" name="rememberme2"
+                                            value="forever"><a href="#">Orange(4)</a></li>
+                                    <li class="blue"><input id="rememberme2" type="checkbox" name="rememberme2"
+                                            value="forever"><a href="#">Blue(4)</a></li>
+                                    <li class="green"><input id="rememberme2" type="checkbox" name="rememberme2"
+                                            value="forever"><a href="#">Green(2)</a></li>
+                                    <li class="yellow"><input id="rememberme2" type="checkbox" name="rememberme2"
+                                            value="forever"><a href="#">Yellow(6)</a></li>
+                                    <li class="pink"><input id="rememberme2" type="checkbox" name="rememberme2"
+                                            value="forever"><a href="#">Pink(2)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1346,9 +980,12 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Cotton(5)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Polyester(4)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Viscose(4)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Cotton(5)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Polyester(4)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Viscose(4)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1360,9 +997,12 @@
                             </div>
                             <div class="shop-left-menu-2">
                                 <ul>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Casual(5)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Dressy(2)</a></li>
-                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a href="#">Girly(6)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Casual(5)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Dressy(2)</a></li>
+                                    <li><input id="rememberme2" type="checkbox" name="rememberme2" value="forever"><a
+                                            href="#">Girly(6)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1393,83 +1033,152 @@
 
 
 
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-970.002px, 0px, 0px); transition: all 0s ease 0s; width: 3071.67px;"><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/2.png" alt="brand"></a>
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transform: translate3d(-970.002px, 0px, 0px); transition: all 0s ease 0s; width: 3071.67px;">
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/2.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/3.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/4.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/5.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/6.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/7.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/1.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/2.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/3.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/4.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/5.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/6.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/7.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/1.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/2.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/3.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/4.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/5.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;">
+                                <div class="col-lg-12">
+                                    <div class="single-brand">
+                                        <a href="#"><img src="img/brand/6.png" alt="brand"></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/3.png" alt="brand"></a>
+                    </div>
+                    <div class="owl-controls">
+                        <div class="owl-nav">
+                            <div class="owl-prev" style=""><i class="fa fa-angle-left"></i></div>
+                            <div class="owl-next" style=""><i class="fa fa-angle-right"></i></div>
                         </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/4.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/5.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/6.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/7.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/1.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/2.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/3.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/4.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/5.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/6.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/7.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/1.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/2.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/3.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/4.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/5.png" alt="brand"></a>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 161.667px; margin-right: 0px;"><div class="col-lg-12">
-                        <div class="single-brand">
-                            <a href="#"><img src="img/brand/6.png" alt="brand"></a>
-                        </div>
-                    </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style=""><i class="fa fa-angle-left"></i></div><div class="owl-next" style=""><i class="fa fa-angle-right"></i></div></div><div class="owl-dots" style="display: none;"></div></div></div>
+                        <div class="owl-dots" style="display: none;"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1505,10 +1214,12 @@
                             <div class="footer-logo mb-30">
                                 <a href="#"><img src="img/logo/2.png" alt="logo"></a>
                             </div>
-                            <p>It is a long established fact that reader will distract by the readable content of a page...</p>
+                            <p>It is a long established fact that reader will distract by the readable content of a
+                                page...</p>
                             <div class="footer-address">
                                 <ul>
-                                    <li><i class="fa fa-map-marker"></i>address :No 40 Baria Sreet 133/2, NewYork, USA.</li>
+                                    <li><i class="fa fa-map-marker"></i>address :No 40 Baria Sreet 133/2, NewYork, USA.
+                                    </li>
                                     <li><i class="fa fa-envelope"></i>Email :demo@posthemes.com</li>
                                     <li><i class="fa fa-mobile"></i>Phone :+(1234) 567 890</li>
                                 </ul>
@@ -1637,7 +1348,12 @@
                                 <span class="new-price">$59.00</span>
                             </div>
                             <div class="short-description mt-20">
-                                <p>Bacon ipsum dolor sit amet ut nostrud chuck, voluptate adipisicing veniam kielbasa fugiat ex spare ribs. Incididunt sint officia non cow, ut et. Cillum porchetta tongue occaecat laborum bacon aliquip fatback flank dolore short loin ball tip bresaola deserunt dolor. Shoulder fugiat ut in ut tail swine dolore, capicola ullamco beef occaecat meatball. Laboris turkey in et chuck deserunt ad incididunt do.</p>
+                                <p>Bacon ipsum dolor sit amet ut nostrud chuck, voluptate adipisicing veniam kielbasa
+                                    fugiat ex spare ribs. Incididunt sint officia non cow, ut et. Cillum porchetta
+                                    tongue occaecat laborum bacon aliquip fatback flank dolore short loin ball tip
+                                    bresaola deserunt dolor. Shoulder fugiat ut in ut tail swine dolore, capicola
+                                    ullamco beef occaecat meatball. Laboris turkey in et chuck deserunt ad incididunt
+                                    do.</p>
                             </div>
                             <form action="#">
                                 <input type="number" value="1">
@@ -1656,11 +1372,16 @@
                             <!-- social-icon-start -->
                             <div class="social-icon mt-20">
                                 <ul>
-                                    <li><a href="#" data-toggle="tooltip" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Email to a Friend"><i class="fa fa-envelope-o"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Pin on Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" title="Share on Google+"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Share on Facebook"><i
+                                                class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Share on Twitter"><i
+                                                class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Email to a Friend"><i
+                                                class="fa fa-envelope-o"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Pin on Pinterest"><i
+                                                class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#" data-toggle="tooltip" title="Share on Google+"><i
+                                                class="fa fa-google-plus"></i></a></li>
                                 </ul>
                             </div>
                             <!-- social-icon-end -->
@@ -1705,7 +1426,10 @@
     <!-- plugins js -->
     <script src="js/plugins.js"></script>
     <!-- main js -->
-    <script src="js/main.js"></script><a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
+    <script src="js/main.js"></script><a id="scrollUp" href="#top"
+        style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
 
 
-</body></html>
+</body>
+
+</html>
