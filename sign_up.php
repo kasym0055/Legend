@@ -86,7 +86,7 @@
      $f = mysqli_fetch_assoc($m);
     if(isset($_POST['btn'])){
        
-        $mysqli_q = mysqli_query($c,"INSERT INTO `users`( `First_name`,`Last_name`, `email`, `phone`, `password`, `city_id`) VALUES ('$_POST[first_n]','$_POST[last_n]','$_POST[email]','$_POST[phone]','$_POST[pass]','$f[id]')");
+        $mysqli_q = mysqli_query($c,"INSERT INTO `users`( `First_name`,`Last_name`, `email`, `phone`, `password`, `city_id`,`role`) VALUES ('$_POST[first_n]','$_POST[last_n]','$_POST[email]','$_POST[phone]','$_POST[pass]','$f[id]',1)");
           echo "INSERT INTO `users`( `First_name`,`Last_name`, `email`, `phone`, `password`, `city_id`) VALUES ('$_POST[first_n]','$_POST[last_n]','$_POST[email]','$_POST[phone]','$_POST[pass]','')";
         
     }
